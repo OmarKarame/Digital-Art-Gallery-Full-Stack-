@@ -1,0 +1,31 @@
+.edit-art {
+    &__title {
+      margin: 1em auto;
+    }
+  
+    &__content {
+      margin: auto;
+      width: fit-content;
+      max-width: 500px;
+    }
+  
+    &__buttons {
+      display: flex;
+      justify-content: center;
+    }
+  
+    &__button {
+      margin: 2em 0;
+      display: inline-block;
+      background: #5828c7;
+      border: 1px solid #4f24b2;
+      padding: 0.5em 2em;
+      color: white;
+  
+      &--secondary {
+        border: 1px solid #4f24b2;
+        background-color: unset;
+        color: #4f24b2;
+      }
+    }
+  }

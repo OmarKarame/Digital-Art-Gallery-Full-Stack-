@@ -1,0 +1,62 @@
+
+// breakpoints
+$mobile-breakpoint: 320px;
+$tablet-breakpoint: 768px;
+$desktop-breakpoint: 1024px;
+$large-desktop-breakpoint: 1440px;
+$extra-large-desktop-breakpoint: 2560px;
+
+//colors
+$text-color: #f3f2e8;
+$background-color: #1f1b1b;
+
+//Red colors
+$color-red-light: #eb4444;
+$color-red-normal: #de3b1f;
+$color-red-dark: #d92d20;
+
+//Grey colors
+$color-grey-dark: #7b7b7b;
+$color-grey-normal: #70788a;
+$color-grey-light: #b0b7c8;
+
+//Blue colors
+$color-blue-dark: #101828;
+$color-blue-navy: #344054;
+$color-blue-navy-dark: #2d303a;
+
+//Purple colors
+$color-purple-dark: #363f72;
+$color-purple: #6941c6;
+
+//Green colors
+$color-green: #25312f;
+$color-teal: #5d7582;
+$color-green-light: #b6ddc2;
+
+//White colors
+$color-white: #ffffff;
+$color-white-blue: #b1b8cf;
+$color-white-smoke: #f5f5f5;
+
+//Black colors
+$color-black: #000000;
+
+// font weight:
+$font-weight-regular: 400;
+$font-weight-bold: 700;
+
+// letter-spacing:
+$letter-spacing: 160%;
+
+//font size:
+$font-size-largest: 2.5rem;
+$font-size-extra-large: 2rem;
+$font-size-large: 1.75rem;
+$font-size-medium: 1.5rem;
+$font-size-small: 1rem;
+$font-size-extra-small: 0.8rem;
+$font-size-smallest: 0.65rem;
+
+$font-primary: "Lexend Deca", sans-serif;
+$font-secondary: "Inter", sans-serif;

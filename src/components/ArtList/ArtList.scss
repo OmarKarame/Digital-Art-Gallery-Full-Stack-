@@ -1,0 +1,10 @@
+@use "../../styles/_reset.scss" as *;
+@use "../../styles/_variables.scss" as *;
+
+.art-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    margin: 20px auto;
+    gap: 20px;
+  }

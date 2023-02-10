@@ -1,0 +1,74 @@
+@use "../../styles/_reset.scss" as *;
+@use "../../styles/_variables.scss" as *;
+
+.add-art {
+  width: 40%;
+  min-width: 320px;
+  max-width: 475px;
+  background: $color-white;
+  margin: 0 auto;
+  box-shadow: 0px 2px 5px $color-black;
+
+  &__title {
+    width: 100%;
+    color: $color-white-blue;
+    font-family: "open sans condensed";
+    font-size: 1.35em;
+    display: block;
+    background: $color-black;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 0.75em 1em 0.75em 1.5em;
+    box-shadow: inset 0px 1px 1px fadeout($color-white, 95%);
+    border: 1px solid $color-blue-dark;
+    margin: 0;
+    font-weight: 200;
+  }
+
+  &__form {
+    display: block;
+    width: 100%;
+    padding: 2em;
+  }
+}
+
+.shorts {
+    padding: 2em;
+}
+
+button {
+    display: inline-block;
+    background: $color-blue-navy;
+    border: 1px solid darken($color-blue-navy, 5%);
+    padding: 0.5em 2em;
+    color: $color-white;
+    margin-right: 0.5em;
+    box-shadow: inset 0px 1px 0px fadeout($color-white, 80%);
+    &:hover {
+      background: lighten($color-blue-navy, 5%);
+    }
+    &:active {
+      background: $color-blue-navy;
+      box-shadow: inset 0px 1px 1px fadeout($color-black, 90%);
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+
+
+  input {
+    display: block;
+    margin: auto auto;
+    width: 100%;
+    margin-bottom: 2em;
+    padding: 0.5em 0;
+    border: none;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 1.25em;
+    color: $color-blue-dark;
+    
+    &:focus {
+      outline: none;
+    }
+  }
